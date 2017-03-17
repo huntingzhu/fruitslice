@@ -1,2 +1,2 @@
 # fruitslice
-This is an Fruitslice game based on web.
+This is a Fruitslice game based on web.
