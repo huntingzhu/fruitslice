@@ -1,0 +1,57 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fruit Slice Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="fruitsliceCSS.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="trialsLeft">
+
+            </div>
+
+            <div id="score">
+                Score: <span id="scorevalue">0</span>
+            </div>
+
+
+            <div id="displayWindow">
+              <img id="fruit1" class="fruit" />
+            </div>
+
+            <div id="instruction">
+                Slice Fruits
+            </div>
+
+            <div id="gameLevel">
+              <div id="easy" class="levels">
+                Easy
+              </div>
+              <div id="medium" class="levels">
+                Medium
+              </div>
+              <div id="hard" class="levels">
+                Hard
+              </div>
+            </div>
+
+            <div id="startreset">
+                Start Game
+            </div>
+
+            <div id="gameOver">
+
+            </div>
+        </div>
+        <audio id="sliceSound"><source src="audio/sword.mp3"/></audio>
+        <audio id="fallSound"><source src="audio/sword2.mp3"/></audio>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="fruitsliceJquery.js"></script>
+    </body>
+</html>
